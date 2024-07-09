@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@import './variables.css';
+
+*,
+*::after,
+*::before {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+a:link {
+    color: var(--black, #0c0c0c);
+}
+
+a:visited {
+    color: var(--black, #0c0c0c);
+}
+
+a:hover {
+    color: var(--primary-600, #79043c);
+}
+
+a:active {
+    color: var(--primary, #a10550);
+}
